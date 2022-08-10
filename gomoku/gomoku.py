@@ -129,7 +129,7 @@ def main():
 
 if __name__ == '__main__':
     # open cmd
-    # cd Desktop\Level_3\CSC-325~Artificial Intelligence\Coursework\gomoku
+    # cd <path to gomoku.py script>
     # gomoku.py GomokuAgentRand Rambo
     main()
     exit(0)
