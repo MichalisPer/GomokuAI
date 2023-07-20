@@ -1,7 +1,6 @@
 import math
 from misc import winningTest, legalMove
 from gomokuAgent import GomokuAgent
-import time
 import numpy as np
 
 PLUS_PATTERN = ["00000", "00001", "10000", "00010", "00100", "01000", "00011", "00101", "01001", "10001", "10010",

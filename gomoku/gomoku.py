@@ -7,14 +7,10 @@
 # Feb 2020
 #
 
-import sys, time, signal
+import sys
 import numpy as np
-import os
 
 import concurrent.futures
-
-from time import time
-from random import randint
 
 from misc import winningTest, legalMove
 
@@ -29,16 +25,9 @@ class TimeOutException(Exception):
 
 
 # handler for time out
-def handler(signum, frame):
+def handler():
     print("Player timeout - signal -")
     raise TimeOutException()
-
-
-"""
-CHANGE:
-Added turn_id to the turn function to replace the player.ID calls
-This protects against ID spoofing
-"""
 
 
 # turn taking function
@@ -93,11 +82,6 @@ def main():
     # initialize the board
     board = np.zeros((BOARD_SIZE, BOARD_SIZE), dtype=int)
 
-    # connect the alarm signal with the handler
-    # signal.signal(signal.SIGALRM, handler)
-
-    # play the game
-    winner = 0
     while True:
         end = False
         """
