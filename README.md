@@ -1,4 +1,4 @@
-# GomokuAI <img src="https://play-lh.googleusercontent.com/epVaPgYRkmgZWgjLzDxLq9ytsprYC3oXJum8zCV-Ydbcqq6rJYOehuRGZ8-vFQyej00k=w512"  width="6%" height="6%">
+# GomokuAI <img src="https://play-lh.googleusercontent.com/epVaPgYRkmgZWgjLzDxLq9ytsprYC3oXJum8zCV-Ydbcqq6rJYOehuRGZ8-vFQyej00k=w512"  width="3%" height="3%">
 
 [![GitHub stars](https://img.shields.io/github/stars/MichalisPer/GomokuAI.svg?style=social)](https://github.com/MichalisPer/GomokuAI/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/MichalisPer/GomokuAI.svg?style=social)](https://github.com/MichalisPer/GomokuAI/network/members)
