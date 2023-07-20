@@ -13,9 +13,7 @@ game where players aim to connect five stones in a row on a grid-like board.
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Contributing](#-contributing)
-- [License](#-license)
-- [Acknowledgments](#-acknowledgments)
-
+- 
 ## 🚀 Getting Started
 
 Follow these instructions to set up and run the project on your local machine.
