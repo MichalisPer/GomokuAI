@@ -9,12 +9,12 @@ game where players aim to connect five stones in a row on a grid-like board.
 
 ## 📋 Table of Contents
 
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [Getting Started](#-getting-started)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
 
 ## 🚀 Getting Started
 
@@ -74,7 +74,7 @@ In order to create your own player follow the steps:
 2. Within that folder create a `player.py` file and simply inherit the `GomokuAgent` class from `gomokuAgent.py`. 
 3. Implement the `move(self, board)` method to return a tuple with 2 integers that represent a position on the grid.
 
-At last, run the project as shown in the [Usage](#usage) section replacing the DecentPlayer with the name of the folder
+At last, run the project as shown in the [Usage](#-usage) section replacing the DecentPlayer with the name of the folder
 you choose at step 1.
 
 ### Stay in Touch
