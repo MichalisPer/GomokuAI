@@ -42,24 +42,44 @@ pip install -r requirements.txt
 
 ## 📖 Usage
 
-Show examples of how to use your project. Include code samples and screenshots to demonstrate its capabilities.
+To run the above project you firstly have to navigate in the gomoku folder and run the following command.
+```bash
+# cd gomoku (to navigate in the folder) and then run the command
+python gomoku.py MasterPlayer DecentPlayer
+```
+where the 3 arguments are:
+1. the file name
+2. `Player 1`, represented with `1` on the grid.
+3. `Player 2`, represented with `-1` on the grid.
+
+Currently, there are 3 players in the project:
+- Master Player: an implementation of a `min-max` algorithm optimized with `a-b pruning`.
+- Decent Player: an implementation of a `min-max` algorithm.
+- Random Player: random moves within the grid.
+
+Each of the above player has its own directory, and they all inherit from the `GomokuAgent` class that sits within 
+the `gomokuAgent.py` module. Each agent implements the `move(self, board)` method that return a `tuple` with two int that
+represent a position in the grid.
 
 ## 🤝 Contributing
 
-We welcome contributions! If you'd like to contribute to the project, please follow these guidelines [CONTRIBUTING.md](link_to_contributing_md).
+**Please Note:** This project is currently closed for direct contributions. However, I highly encourage you to fork this 
+repository, create your own player and compete with the MasterPlayer to prove yourself. For some of you it might be easy
+for other it might be challenging. Try to not have a look on the current implementation, so it will be enjoyable for you.
 
-## 📝 License
+### How to create your own player
 
-This project is licensed under the MIT License - see the [LICENSE](link_to_license_file) file for details.
+In order to create your own player follow the steps:
+1. Create a folder within the gomoku folder and name it as you like (this will be the name of your player, so think wise).
+2. Within that folder create a `player.py` file and simply inherit the `GomokuAgent` class from `gomokuAgent.py`. 
+3. Implement the `move(self, board)` method to return a tuple with 2 integers that represent a position on the grid.
 
-## 🙏 Acknowledgments
+At last, run the project as shown in the [Usage](#usage) section replacing the DecentPlayer with the name of the folder
+you choose at step 1.
 
-Give credit to any resources, third-party libraries, or individuals who have inspired or helped your project.
+### Stay in Touch
 
----
+I would love to see what you come up with! Feel free to open an issue on this repository and let us know about your fork.
+I will be happy to add a link to it in this README. If you have any questions or need assistance with your fork, 
+don't hesitate to reach out to me.
 
-<p align="center">
-  <a href="https://github.com/your_username/your_repo">
-    <img src="path/to/screenshot.png" alt="Project Screenshot" width="800">
-  </a>
-</p>
