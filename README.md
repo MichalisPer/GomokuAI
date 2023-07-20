@@ -26,12 +26,19 @@ Follow these instructions to set up and run the project on your local machine.
 
 ### ⚙️ Installation
 
-1. Clone the repository to your local machine
+1. Clone the repository to your local machine.
 ```bash
 git clone https://github.com/MichalisPer/GomokuAI.git
 ```
-
-Step-by-step instructions on how to install the project. Include code snippets if necessary.
+2. Open the project in your preferred IDE and create a virtual environment. How to create virtual environment in PyCharm can be found on the following link: [PyCharm Virtual Environment](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html). (_optional_)
+```bash
+# run the following to activate virtual environment
+venv\Scripts\activate
+```
+3. Install all prerequisites by running the requirements file.
+```bash
+pip install -r requirements.txt
+```
 
 ## 📖 Usage
 
