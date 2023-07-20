@@ -316,7 +316,6 @@ class Player(GomokuAgent):
             board[move] = self.ID
             score = self.alphabeta(board, 0, -math.inf, math.inf, False)
             board[move] = 0
-            print(score, move)
             if score > bestScore:
                 bestScore = score
                 moveLoc = move
