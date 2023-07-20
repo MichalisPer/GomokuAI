@@ -18,9 +18,18 @@ game where players aim to connect five stones in a row on a grid-like board.
 
 ## 🚀 Getting Started
 
-Describe how to get the project up and running on the user's local machine. Include any prerequisites, dependencies, or environment setup required.
+Follow these instructions to set up and run the project on your local machine.
 
-## ⚙️ Installation
+### 📋 Prerequisites
+- `Python` (Version `3.11.4`)
+- `NumPy` (Version `1.25.1`)
+
+### ⚙️ Installation
+
+1. Clone the repository to your local machine
+```bash
+git clone https://github.com/MichalisPer/GomokuAI.git
+```
 
 Step-by-step instructions on how to install the project. Include code snippets if necessary.
 
